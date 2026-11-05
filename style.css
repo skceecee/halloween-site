@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    background-color: #212c1f;
+    color:white;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 1.6rem;
+}
+.bounding-box{
+max-width: 1200px;
+margin:auto;
+padding: 1.5rem;
+}
+.container{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 2rem 1rem;
+}
+main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+h1{
+  font-family: "Irish Grover", system-ui;
+  font-size: 3rem;
+  margin: 0;
+background-color:rgba(0, 0, 0, 0.399);
+padding: 1rem;
+
+}
+
+.author{
+ margin: 0.25rem 0 0;
+ font-size: 2rem;
+
+}
+
+.hero-image{
+max-width: 100%;
+height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.poem{
+    width: 100%;
+    max-width: 650px;
+    padding: 1.5rem;
+    background-color:rgba(0, 0, 0, 0.399);
+   
+}
+.poem-text{
+    margin: 0 0 1rem;
+    line-height: 1.4;
+}
+
+.bio-link a{
+   background-color:rgba(207, 96, 5);
+   color: white;
+   padding: 14px 25px;
+   text-align: center;
+   display: inline-block;
+   text-decoration: none;
+    font-family: "Irish Grover", system-ui;
+}
+a:hover, a:active{
+    background-color: black;
+}
+
+
+
+
+.poem-text{
+ color: white;  
+   font-family: "Amatic SC", sans-serif;
+}
+
